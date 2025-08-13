@@ -1,6 +1,5 @@
 - name: variables from inventory
   hosts: frontend
-  connection: frontend
   tasks:
   - name: PRINT COURSE information
     ansible.builtin.debug:
