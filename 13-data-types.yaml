@@ -10,8 +10,8 @@
     - shell
     - ansible
     CONCEPTS:
-    CI: jenkins
-    SCRIPTING: "Shell, ansible, terraform, python"
+      CI: jenkins
+      SCRIPTING: "Shell, ansible, terraform, python"
   tasks:
   - name: print course information
     ansible.builtin.debug:
