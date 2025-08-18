@@ -19,5 +19,5 @@
       duration: 10hr
       trainer: vamsi
   ansible.builtin.debug:
-    msg: "course info: {{ course | dict2items }}"    
+    msg: "course info: {{ course | dict2items  }}"    
     
