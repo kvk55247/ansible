@@ -1,0 +1,10 @@
+- name: functions
+  hosts: local
+  connection: local
+  # vars:
+  #   pesrsons: "ramesh,vamsi,deva.eswar"
+  tasks:
+    - name: undefined variable
+      ansible.builtin.debug:
+        msg: "hello, {{ person | default ('ramesh') }} "
+    
